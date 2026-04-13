@@ -402,7 +402,7 @@ license:		Creative Commons NC-BY-SA-4.0
 			<forceUppercase>false</forceUppercase>
 		<fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
 		<fontSize>0.014</fontSize>
-		<color>0FAA9CFF</color>
+		
 		<zIndex>70</zIndex>
 	</text>
 	
@@ -541,7 +541,7 @@ license:		Creative Commons NC-BY-SA-4.0
 			<forceUppercase>false</forceUppercase>
 		<fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
 		<fontSize>0.014</fontSize>
-		<color>0FAA9CFF</color>
+		
 		<zIndex>70</zIndex>
 	</text>
 	
