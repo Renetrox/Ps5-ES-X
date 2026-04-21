@@ -117,8 +117,8 @@ license:		Creative Commons NC-BY-SA-4.0
     <size>0.10 0.04</size>
     <text>System</text>
      <textStrokeColor>000000CC</textStrokeColor>
+     <fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
                 <textStrokeSize>1</textStrokeSize>
-    <fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
     <fontSize>0.032</fontSize>
     <color>FFFFFFFF</color>
     <alignment>left</alignment>
@@ -132,9 +132,9 @@ license:		Creative Commons NC-BY-SA-4.0
     <text>Games</text>
      <textStrokeColor>000000CC</textStrokeColor>
                 <textStrokeSize>1</textStrokeSize>
-    <fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
+                <fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
     <fontSize>0.032</fontSize>
-    <color>8F8F8FFF</color>
+    <color>3e3738</color>
     <alignment>left</alignment>
     <zIndex>205</zIndex>
   </text>
@@ -291,21 +291,21 @@ license:		Creative Commons NC-BY-SA-4.0
     <zIndex>100</zIndex>
 </text>
 
-<text name="tab_system_active" extra="true">
+<text name="tab_system_inactive" extra="true">
     <origin>0 0</origin>
     <pos>0.03 0.03</pos>
     <size>0.10 0.04</size>
     <text>System</text>
      <textStrokeColor>000000CC</textStrokeColor>
                 <textStrokeSize>1</textStrokeSize>
-    <fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
+    <fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
     <fontSize>0.032</fontSize>
-    <color>8F8F8FFF</color>
+    <color>3e3738</color>
     <alignment>left</alignment>
     <zIndex>205</zIndex>
   </text>
 
-  <text name="tab_games_inactive" extra="true">
+  <text name="tab_games_active" extra="true">
     <origin>0 0</origin>
     <pos>0.14 0.03</pos>
     <size>0.10 0.04</size>
