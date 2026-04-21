@@ -110,6 +110,38 @@ license:		Creative Commons NC-BY-SA-4.0
     <lineSpacing>1.0</lineSpacing>
     <zIndex>205</zIndex>
   </text>
+  
+ <text name="tab_system_active" extra="true">
+    <origin>0 0</origin>
+    <pos>0.03 0.03</pos>
+    <size>0.10 0.04</size>
+    <text>System</text>
+     <textStrokeColor>000000CC</textStrokeColor>
+                <textStrokeSize>1</textStrokeSize>
+    <fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
+    <fontSize>0.032</fontSize>
+    <color>FFFFFFFF</color>
+    <alignment>left</alignment>
+    <zIndex>205</zIndex>
+  </text>
+
+  <text name="tab_games_inactive" extra="true">
+    <origin>0 0</origin>
+    <pos>0.14 0.03</pos>
+    <size>0.10 0.04</size>
+    <text>Games</text>
+     <textStrokeColor>000000CC</textStrokeColor>
+                <textStrokeSize>1</textStrokeSize>
+    <fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
+    <fontSize>0.032</fontSize>
+    <color>8F8F8FFF</color>
+    <alignment>left</alignment>
+    <zIndex>205</zIndex>
+  </text>
+
+</view>
+  <view name="system">
+  
 	</view>
 	
 	
@@ -132,8 +164,11 @@ license:		Creative Commons NC-BY-SA-4.0
 		</carousel>
       
 		<text name="systemInfo">
-			<pos>-0.30 0.03</pos>
+			<origin>0 0</origin>
+   			<pos>0.209 0.82</pos> <!-- offset pequeño -->
+    			<size>0.683 0.035</size>
 			<backgroundColor>00000000</backgroundColor>
+			<alignment>right</alignment>
 			<color>FFFFFF</color>
 			<fontPath>./_inc/fonts/VastShadow-Regular.ttf</fontPath>
 			<fontSize>0.015</fontSize>
@@ -207,6 +242,15 @@ license:		Creative Commons NC-BY-SA-4.0
 			<path>./_inc/caratulas/logos/${system.theme}.png</path>
 			<zIndex>91</zIndex>
 		</image>
+		
+		<image name="last" extra="true">
+			<origin>0 0</origin>
+   			<pos>0.72 0.76</pos>
+			
+			<maxSize>0.05 0.05</maxSize>
+			<path>./_inc/caratulas/logos/joystick.png</path>
+			<zIndex>91</zIndex>
+		</image>
 
 		<image name="mostplayed_cover" extra="true">
 			<path>${system.mostPlayedImage}</path>
@@ -247,6 +291,33 @@ license:		Creative Commons NC-BY-SA-4.0
     <zIndex>100</zIndex>
 </text>
 
+<text name="tab_system_active" extra="true">
+    <origin>0 0</origin>
+    <pos>0.03 0.03</pos>
+    <size>0.10 0.04</size>
+    <text>System</text>
+     <textStrokeColor>000000CC</textStrokeColor>
+                <textStrokeSize>1</textStrokeSize>
+    <fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
+    <fontSize>0.032</fontSize>
+    <color>8F8F8FFF</color>
+    <alignment>left</alignment>
+    <zIndex>205</zIndex>
+  </text>
+
+  <text name="tab_games_inactive" extra="true">
+    <origin>0 0</origin>
+    <pos>0.14 0.03</pos>
+    <size>0.10 0.04</size>
+    <text>Games</text>
+     <textStrokeColor>000000CC</textStrokeColor>
+                <textStrokeSize>1</textStrokeSize>
+    <fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
+    <fontSize>0.032</fontSize>
+    <color>FFFFFFFF</color>
+    <alignment>left</alignment>
+    <zIndex>205</zIndex>
+  </text>
 		<text name="md_gamecounter" extra="true">
   <origin>0 1</origin>
     <pos>0.213 0.36</pos>
@@ -452,19 +523,33 @@ license:		Creative Commons NC-BY-SA-4.0
 	<!-- BARRA SUPERIOR / FECHA -->
 	<text name="md_lbl_lastplayed">
 		<fontPath>./_inc/fonts/zrnic rg.ttf</fontPath>
-		<pos>0.144 0.035</pos>
+		<origin>0 0</origin>
+   			<pos>0.75 0.70</pos>
+   			<alignment>right</alignment>
 		<fontSize>0.030</fontSize>
 		<color>F8F8F8</color>
-		<zIndex>22</zIndex>
+		<zIndex>0</zIndex>
 	</text>
+	
+	<image name="last" extra="true">
+			<origin>0 0</origin>
+   			<pos>0.75 0.70</pos>
+			
+			<maxSize>0.05 0.05</maxSize>
+			<path>./_inc/caratulas/logos/auto-lastplayed.png</path>
+			<zIndex>91</zIndex>
+		</image>
 
 	<datetime name="md_lastplayed">
 		<fontPath>./_inc/fonts/zrnic rg.ttf</fontPath>
-		<pos>0.215 0.035</pos>
-		<fontSize>0.03</fontSize>
+		<origin>0 0</origin>
+   			<pos>0.78 0.70</pos>
+   			<alignment>center</alignment>
+		<fontSize>0.025</fontSize>
 		<color>F8F8F8</color>
 		<zIndex>22</zIndex>
 	</datetime>
+
 
 </view>
 
@@ -591,16 +676,29 @@ license:		Creative Commons NC-BY-SA-4.0
 	<!-- BARRA SUPERIOR / FECHA -->
 	<text name="md_lbl_lastplayed">
 		<fontPath>./_inc/fonts/zrnic rg.ttf</fontPath>
-		<pos>0.144 0.035</pos>
+		<origin>0 0</origin>
+   			<pos>0.75 0.70</pos>
+   			<alignment>right</alignment>
 		<fontSize>0.030</fontSize>
 		<color>F8F8F8</color>
-		<zIndex>22</zIndex>
+		<zIndex>0</zIndex>
 	</text>
+	
+	<image name="Last" extra="true">
+			<origin>0 0</origin>
+   			<pos>0.75 0.70</pos>
+			
+			<maxSize>0.05 0.05</maxSize>
+			<path>./_inc/caratulas/logos/auto-lastplayed.png</path>
+			<zIndex>91</zIndex>
+		</image>
 
 	<datetime name="md_lastplayed">
 		<fontPath>./_inc/fonts/zrnic rg.ttf</fontPath>
-		<pos>0.215 0.035</pos>
-		<fontSize>0.03</fontSize>
+		<origin>0 0</origin>
+   			<pos>0.78 0.70</pos>
+   			<alignment>center</alignment>
+		<fontSize>0.025</fontSize>
 		<color>F8F8F8</color>
 		<zIndex>22</zIndex>
 	</datetime>
