@@ -536,7 +536,7 @@ license:		Creative Commons NC-BY-SA-4.0
    			<pos>0.75 0.70</pos>
 			
 			<maxSize>0.05 0.05</maxSize>
-			<path>./_inc/caratulas/logos/auto-lastplayed.png</path>
+			<path>./_inc/caratulas/logos/icon-playtime.svg</path>
 			<zIndex>91</zIndex>
 		</image>
 
@@ -689,7 +689,7 @@ license:		Creative Commons NC-BY-SA-4.0
    			<pos>0.75 0.70</pos>
 			
 			<maxSize>0.05 0.05</maxSize>
-			<path>./_inc/caratulas/logos/auto-lastplayed.png</path>
+			<path>./_inc/caratulas/logos/icon-playtime.svg</path>
 			<zIndex>91</zIndex>
 		</image>
 
