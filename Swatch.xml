@@ -132,9 +132,9 @@ license:		Creative Commons NC-BY-SA-4.0
     <text>Games</text>
      <textStrokeColor>000000CC</textStrokeColor>
                 <textStrokeSize>1</textStrokeSize>
-                <fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
+                 <fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
     <fontSize>0.032</fontSize>
-    <color>3e3738</color>
+    <color>b4b4b4</color>
     <alignment>left</alignment>
     <zIndex>205</zIndex>
   </text>
@@ -300,7 +300,7 @@ license:		Creative Commons NC-BY-SA-4.0
                 <textStrokeSize>1</textStrokeSize>
     <fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
     <fontSize>0.032</fontSize>
-    <color>3e3738</color>
+    <color>b4b4b4</color>
     <alignment>left</alignment>
     <zIndex>205</zIndex>
   </text>
