@@ -248,7 +248,7 @@ license:		Creative Commons NC-BY-SA-4.0
    			<pos>0.72 0.76</pos>
 			
 			<maxSize>0.05 0.05</maxSize>
-			<path>./_inc/caratulas/logos/joystick.png</path>
+			<path>./_inc/caratulas/logos/icon-playcount.png</path>
 			<zIndex>91</zIndex>
 		</image>
 
