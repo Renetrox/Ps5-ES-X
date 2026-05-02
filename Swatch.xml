@@ -320,7 +320,7 @@ license:		Creative Commons NC-BY-SA-4.0
   </text>
 		<text name="md_gamecounter" extra="true">
   <origin>0 1</origin>
-    <pos>0.213 0.36</pos>
+    <pos>0.200 0.36</pos>
     <size>0.7 0.1</size> 
   <fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
   <fontSize>0.015</fontSize>
@@ -356,7 +356,7 @@ license:		Creative Commons NC-BY-SA-4.0
 			<path>./_inc/images/fake-carrousel.png</path>
 			<pos>0 0</pos>
 			<size>1 1</size>
-			<zIndex>60</zIndex>
+			<zIndex>100</zIndex>
 		</image>
 
 		<!-- Logo -->
@@ -372,10 +372,20 @@ license:		Creative Commons NC-BY-SA-4.0
 	<pos>0.149 0.195</pos>
 	<size>0.10 0.180</size>
 	<path>./_inc/caratulas/_default_game.png</path>
-	<zIndex>40</zIndex>
+	<zIndex>0</zIndex>
 </image>
 
-
+<text name="md_name">
+	<pos>0.24 0.234</pos>
+	<size>0.94 0.07</size>
+	<fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
+	<fontSize>0.045</fontSize>
+	<textStrokeColor>000000CC</textStrokeColor>
+	<textStrokeSize>1</textStrokeSize>
+	<color>FFFFFFFF</color>
+	<alignment>left</alignment>
+	<zIndex>100</zIndex>
+</text>
 
 </view>
 
@@ -558,26 +568,49 @@ license:		Creative Commons NC-BY-SA-4.0
 	<!-- LISTA IZQUIERDA -->
 		<textlist name="gamelist">
     <selectorColor>FFFFFF00</selectorColor>
-    <selectedColor>FFFFFFFF</selectedColor>
-    <primaryColor>AAAAAAFF</primaryColor>
-    <secondaryColor>888888FF</secondaryColor>
+    <selectedColor>FFFFFF00</selectedColor>
+    <primaryColor>FFFFFF00</primaryColor>
+    <secondaryColor>FFFFFF00</secondaryColor>
 
     <fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
-    <fontSize>0.045</fontSize>
-    <lineSpacing>9.80</lineSpacing>
+    <lineSpacing>1.00</lineSpacing>
 
     <alignment>left</alignment>
-    <size>0.60 0.52</size>
-    <pos>0.24 0.192</pos>
+    <size>1.00 0.24</size>
+    <pos>-0.021 0.098</pos>
     <zIndex>50</zIndex>
+
     <orientation>horizontal</orientation>
-  </textlist>
+    <carouselMode>true</carouselMode>
+    <carouselLoop>true</carouselLoop>
+
+    <carouselItemColor>00000000</carouselItemColor>
+    <carouselSelectedItemColor>00000000</carouselSelectedItemColor>
+
+    <carouselImageType>thumbnail</carouselImageType>
+    <carouselFallbackImage>./_inc/caratulas/_default_game.png</carouselFallbackImage>
+    <carouselImageFit>cover</carouselImageFit>
+<carouselImagePadding>0.035 0.035</carouselImagePadding>
+<carouselShowText>false</carouselShowText>
+    
+
+    <logoScale>1.52</logoScale>
+    <logoSize>0.067 0.531</logoSize>
+    <logoOffsetX>-0.330</logoOffsetX>
+    <logoOffsetY>-0.004</logoOffsetY>
+    <logoAlignment>top</logoAlignment>
+
+    <logoSpacingX>0.088</logoSpacingX>
+    <scaledLogoSpacing>0.48</scaledLogoSpacing>
+    <maxLogoCount>25</maxLogoCount>
+    <minLogoOpacity>0.80</minLogoOpacity>
+</textlist>
 
 	<image name="md_image">
 	<origin>0.5 0.5</origin>
 	<pos>0.149 0.195</pos>
 	<size>0.10 0.180</size>
-	<zIndex>50</zIndex>
+	<zIndex>0</zIndex>
 </image>
 
 <image name="System-name-logos" extra="true">
@@ -593,7 +626,7 @@ license:		Creative Commons NC-BY-SA-4.0
 	<origin>0.5 0.5</origin>
 	<pos>0.149 0.195</pos>
 	<size>0.10 0.180</size>
-	<zIndex>50</zIndex>
+	<zIndex>0</zIndex>
 </image>
 
 	<!-- SOLO VIDEO -->

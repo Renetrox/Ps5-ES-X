@@ -589,11 +589,13 @@ license:		Creative Commons NC-BY-SA-4.0
 
     <carouselImageType>thumbnail</carouselImageType>
     <carouselFallbackImage>./_inc/caratulas/_default_game.png</carouselFallbackImage>
-    <carouselImageFit>contain</carouselImageFit>
+    <carouselImageFit>cover</carouselImageFit>
+<carouselImagePadding>0.035 0.035</carouselImagePadding>
+<carouselShowText>false</carouselShowText>
     
 
     <logoScale>1.52</logoScale>
-    <logoSize>0.54 0.54</logoSize>
+    <logoSize>0.067 0.531</logoSize>
     <logoOffsetX>-0.330</logoOffsetX>
     <logoOffsetY>-0.004</logoOffsetY>
     <logoAlignment>top</logoAlignment>
