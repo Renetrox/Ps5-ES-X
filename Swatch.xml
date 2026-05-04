@@ -438,6 +438,7 @@ license:		Creative Commons NC-BY-SA-4.0
     <carouselFallbackImage>./_inc/caratulas/_default_game.png</carouselFallbackImage>
     <carouselImageFit>cover</carouselImageFit>
 <carouselImagePadding>0.035 0.035</carouselImagePadding>
+<carouselImageLockSize>true</carouselImageLockSize>
 <carouselShowText>false</carouselShowText>
     
 
@@ -614,6 +615,7 @@ license:		Creative Commons NC-BY-SA-4.0
     <carouselFallbackImage>./_inc/caratulas/_default_game.png</carouselFallbackImage>
     <carouselImageFit>cover</carouselImageFit>
 <carouselImagePadding>0.035 0.035</carouselImagePadding>
+<carouselImageLockSize>true</carouselImageLockSize>
 <carouselShowText>false</carouselShowText>
     
 
