@@ -423,8 +423,8 @@ license:		Creative Commons NC-BY-SA-4.0
     <lineSpacing>1.00</lineSpacing>
 
     <alignment>left</alignment>
-    <size>1.00 0.24</size>
-    <pos>-0.021 0.098</pos>
+    <size>1.00 0.23</size>
+    <pos>-0.021 0.099</pos>
     <zIndex>50</zIndex>
 
     <orientation>horizontal</orientation>
@@ -437,7 +437,7 @@ license:		Creative Commons NC-BY-SA-4.0
     <carouselImageType>thumbnail</carouselImageType>
     <carouselFallbackImage>./_inc/caratulas/_default_game.png</carouselFallbackImage>
     <carouselImageFit>cover</carouselImageFit>
-<carouselImagePadding>0.035 0.035</carouselImagePadding>
+<carouselImagePadding>0.004 0.006</carouselImagePadding>
 <carouselImageLockSize>true</carouselImageLockSize>
 <carouselShowText>false</carouselShowText>
     
@@ -600,8 +600,8 @@ license:		Creative Commons NC-BY-SA-4.0
     <lineSpacing>1.00</lineSpacing>
 
     <alignment>left</alignment>
-    <size>1.00 0.24</size>
-    <pos>-0.021 0.098</pos>
+    <size>1.00 0.23</size>
+    <pos>-0.021 0.099</pos>
     <zIndex>50</zIndex>
 
     <orientation>horizontal</orientation>
@@ -614,7 +614,7 @@ license:		Creative Commons NC-BY-SA-4.0
     <carouselImageType>thumbnail</carouselImageType>
     <carouselFallbackImage>./_inc/caratulas/_default_game.png</carouselFallbackImage>
     <carouselImageFit>cover</carouselImageFit>
-<carouselImagePadding>0.035 0.035</carouselImagePadding>
+<carouselImagePadding>0.004 0.006</carouselImagePadding>
 <carouselImageLockSize>true</carouselImageLockSize>
 <carouselShowText>false</carouselShowText>
     
