@@ -376,7 +376,7 @@ license:		Creative Commons NC-BY-SA-4.0
 </image>
 
 <text name="md_name">
-	<pos>0.24 0.234</pos>
+	<pos>0.24 0.242</pos>
 	<size>0.94 0.06</size>
 	<fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
 	<fontSize>0.045</fontSize>
