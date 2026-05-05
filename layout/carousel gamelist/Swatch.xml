@@ -413,7 +413,7 @@ license:		Creative Commons NC-BY-SA-4.0
 	<view name="detailed">
 
 	<!-- LISTA IZQUIERDA -->
-	<textlist name="gamelist">
+		<textlist name="gamelist">
     <selectorColor>FFFFFF00</selectorColor>
     <selectedColor>FFFFFF00</selectedColor>
     <primaryColor>FFFFFF00</primaryColor>
@@ -424,7 +424,7 @@ license:		Creative Commons NC-BY-SA-4.0
 
     <alignment>left</alignment>
     <size>1.00 0.23</size>
-    <pos>-0.021 0.099</pos>
+    <pos>-0.021 0.105</pos>
     <zIndex>50</zIndex>
 
     <orientation>horizontal</orientation>
@@ -443,23 +443,17 @@ license:		Creative Commons NC-BY-SA-4.0
     
 
     <logoScale>1.52</logoScale>
-    <logoSize>0.067 0.531</logoSize>
+    <logoSize>0.067 0.521</logoSize>
     <logoOffsetX>-0.330</logoOffsetX>
     <logoOffsetY>-0.004</logoOffsetY>
     <logoAlignment>top</logoAlignment>
 
     <logoSpacingX>0.088</logoSpacingX>
     <scaledLogoSpacing>0.48</scaledLogoSpacing>
-    <maxLogoCount>25</maxLogoCount>
+    <maxLogoCount>15</maxLogoCount>
     <minLogoOpacity>0.80</minLogoOpacity>
 </textlist>
 
-	<image name="md_image">
-	<origin>0.5 0.5</origin>
-	<pos>0.149 0.195</pos>
-	<size>0.10 0.180</size>
-	<zIndex>50</zIndex>
-</image>
 
 <image name="System-name-logos" extra="true">
 			<origin>0 1</origin>
@@ -474,7 +468,7 @@ license:		Creative Commons NC-BY-SA-4.0
 	<origin>0.5 0.5</origin>
 	<pos>0.149 0.195</pos>
 	<size>0.10 0.180</size>
-	<zIndex>50</zIndex>
+	<zIndex>0</zIndex>
 </image>
 
 	<!-- SOLO VIDEO -->
@@ -601,7 +595,7 @@ license:		Creative Commons NC-BY-SA-4.0
 
     <alignment>left</alignment>
     <size>1.00 0.23</size>
-    <pos>-0.021 0.099</pos>
+    <pos>-0.021 0.105</pos>
     <zIndex>50</zIndex>
 
     <orientation>horizontal</orientation>
@@ -620,14 +614,14 @@ license:		Creative Commons NC-BY-SA-4.0
     
 
     <logoScale>1.52</logoScale>
-    <logoSize>0.067 0.531</logoSize>
+    <logoSize>0.067 0.521</logoSize>
     <logoOffsetX>-0.330</logoOffsetX>
     <logoOffsetY>-0.004</logoOffsetY>
     <logoAlignment>top</logoAlignment>
 
     <logoSpacingX>0.088</logoSpacingX>
     <scaledLogoSpacing>0.48</scaledLogoSpacing>
-    <maxLogoCount>25</maxLogoCount>
+    <maxLogoCount>15</maxLogoCount>
     <minLogoOpacity>0.80</minLogoOpacity>
 </textlist>
 
