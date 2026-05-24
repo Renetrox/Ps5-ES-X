@@ -285,6 +285,8 @@ license:		Creative Commons NC-BY-SA-4.0
     <pos>0.25 0.36</pos>
     <size>0.7 0.1</size>
     <color>FFFFFF</color>
+    <textStrokeColor>000000CC</textStrokeColor>
+    <textStrokeSize>1</textStrokeSize>
     <fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
     <fontSize>0.025</fontSize>
     <text>${system.fullName}</text>
@@ -356,7 +358,8 @@ license:		Creative Commons NC-BY-SA-4.0
 			<path>./_inc/images/fake-carrousel.png</path>
 			<pos>0 0</pos>
 			<size>1 1</size>
-			<zIndex>100</zIndex>
+			<zIndex>0</zIndex>
+			<hideWhenSingleGame>true</hideWhenSingleGame>
 		</image>
 
 		<!-- Logo -->
@@ -423,7 +426,7 @@ license:		Creative Commons NC-BY-SA-4.0
     <lineSpacing>1.00</lineSpacing>
 
     <alignment>left</alignment>
-    <size>1.00 0.23</size>
+    <size>1.00 0.25</size>
     <pos>-0.021 0.105</pos>
     <zIndex>50</zIndex>
 
@@ -436,20 +439,24 @@ license:		Creative Commons NC-BY-SA-4.0
 
     <carouselImageType>thumbnail</carouselImageType>
     <carouselFallbackImage>./_inc/caratulas/_default_game.png</carouselFallbackImage>
-    <carouselImageFit>cover</carouselImageFit>
-<carouselImagePadding>0.004 0.006</carouselImagePadding>
-<carouselImageLockSize>true</carouselImageLockSize>
-<carouselShowText>false</carouselShowText>
-    
+    <carouselImageFit>contain</carouselImageFit>
+    <carouselImagePadding>0.004 0.006</carouselImagePadding>
+    <carouselImageLockSize>true</carouselImageLockSize>
+    <carouselShowText>false</carouselShowText>
 
-    <logoScale>1.52</logoScale>
+    <carouselImageBorder>./_inc/images/card_border.png</carouselImageBorder>
+    <carouselImageBorderSelected>./_inc/images/card_border.png</carouselImageBorderSelected>
+    <carouselImageBorderScale>1.18</carouselImageBorderScale>
+    <carouselImageBorderColor>FFFFFFFF</carouselImageBorderColor>
+
+    <logoScale>1.40</logoScale>
     <logoSize>0.067 0.521</logoSize>
     <logoOffsetX>-0.330</logoOffsetX>
     <logoOffsetY>-0.004</logoOffsetY>
     <logoAlignment>top</logoAlignment>
 
     <logoSpacingX>0.088</logoSpacingX>
-    <scaledLogoSpacing>0.48</scaledLogoSpacing>
+    <scaledLogoSpacing>0.90</scaledLogoSpacing>
     <maxLogoCount>15</maxLogoCount>
     <minLogoOpacity>0.80</minLogoOpacity>
 </textlist>
@@ -594,7 +601,7 @@ license:		Creative Commons NC-BY-SA-4.0
     <lineSpacing>1.00</lineSpacing>
 
     <alignment>left</alignment>
-    <size>1.00 0.23</size>
+    <size>1.00 0.25</size>
     <pos>-0.021 0.105</pos>
     <zIndex>50</zIndex>
 
@@ -607,20 +614,24 @@ license:		Creative Commons NC-BY-SA-4.0
 
     <carouselImageType>thumbnail</carouselImageType>
     <carouselFallbackImage>./_inc/caratulas/_default_game.png</carouselFallbackImage>
-    <carouselImageFit>cover</carouselImageFit>
-<carouselImagePadding>0.004 0.006</carouselImagePadding>
-<carouselImageLockSize>true</carouselImageLockSize>
-<carouselShowText>false</carouselShowText>
-    
+    <carouselImageFit>contain</carouselImageFit>
+    <carouselImagePadding>0.004 0.006</carouselImagePadding>
+    <carouselImageLockSize>true</carouselImageLockSize>
+    <carouselShowText>false</carouselShowText>
 
-    <logoScale>1.52</logoScale>
+    <carouselImageBorder>./_inc/images/card_border.png</carouselImageBorder>
+    <carouselImageBorderSelected>./_inc/images/card_border.png</carouselImageBorderSelected>
+    <carouselImageBorderScale>1.18</carouselImageBorderScale>
+    <carouselImageBorderColor>FFFFFFFF</carouselImageBorderColor>
+
+    <logoScale>1.40</logoScale>
     <logoSize>0.067 0.521</logoSize>
     <logoOffsetX>-0.330</logoOffsetX>
     <logoOffsetY>-0.004</logoOffsetY>
     <logoAlignment>top</logoAlignment>
 
     <logoSpacingX>0.088</logoSpacingX>
-    <scaledLogoSpacing>0.48</scaledLogoSpacing>
+    <scaledLogoSpacing>0.90</scaledLogoSpacing>
     <maxLogoCount>15</maxLogoCount>
     <minLogoOpacity>0.80</minLogoOpacity>
 </textlist>
