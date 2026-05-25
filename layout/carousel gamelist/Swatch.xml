@@ -527,7 +527,9 @@ license:		Creative Commons NC-BY-SA-4.0
     <pos>0.100 0.725</pos>
     <size>0.683 0.035</size>
 		<fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
-		<fontSize>0.015</fontSize>
+		<fontSize>0.022</fontSize>
+		<textStrokeColor>000000CC</textStrokeColor>
+	<textStrokeSize>1</textStrokeSize>
 
 		<zIndex>70</zIndex>
 	</text>
@@ -708,7 +710,9 @@ license:		Creative Commons NC-BY-SA-4.0
     <pos>0.100 0.725</pos>
     <size>0.683 0.035</size>
 		<fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
-		<fontSize>0.015</fontSize>
+		<fontSize>0.022</fontSize>
+		<textStrokeColor>000000CC</textStrokeColor>
+	<textStrokeSize>1</textStrokeSize>
 
 		<zIndex>70</zIndex>
 	</text>
