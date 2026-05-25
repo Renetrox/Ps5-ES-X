@@ -458,7 +458,7 @@ license:		Creative Commons NC-BY-SA-4.0
     <logoSpacingX>0.088</logoSpacingX>
     <scaledLogoSpacing>0.90</scaledLogoSpacing>
     <maxLogoCount>15</maxLogoCount>
-    <minLogoOpacity>0.80</minLogoOpacity>
+    <minLogoOpacity>0.90</minLogoOpacity>
 </textlist>
 
 
@@ -602,7 +602,7 @@ license:		Creative Commons NC-BY-SA-4.0
 
     <alignment>left</alignment>
     <size>1.00 0.25</size>
-    <pos>-0.021 0.105</pos>
+    <pos>-0.021 0.099</pos>
     <zIndex>50</zIndex>
 
     <orientation>horizontal</orientation>
@@ -613,7 +613,7 @@ license:		Creative Commons NC-BY-SA-4.0
     <carouselSelectedItemColor>00000000</carouselSelectedItemColor>
 
     <carouselImageType>thumbnail</carouselImageType>
-    <carouselFallbackImage>./_inc/caratulas/_default_game.png</carouselFallbackImage>
+    <carouselFallbackImage>./_inc/caratulas/logos/joystick.png</carouselFallbackImage>
     <carouselImageFit>contain</carouselImageFit>
     <carouselImagePadding>0.004 0.006</carouselImagePadding>
     <carouselImageLockSize>true</carouselImageLockSize>
@@ -622,7 +622,7 @@ license:		Creative Commons NC-BY-SA-4.0
     <carouselImageBorder>./_inc/images/card_border.png</carouselImageBorder>
     <carouselImageBorderSelected>./_inc/images/card_border.png</carouselImageBorderSelected>
     <carouselImageBorderScale>1.18</carouselImageBorderScale>
-    <carouselImageBorderColor>FFFFFFFF</carouselImageBorderColor>
+    <carouselImageBorderColor>888888FF</carouselImageBorderColor>
 
     <logoScale>1.40</logoScale>
     <logoSize>0.067 0.521</logoSize>
@@ -633,7 +633,7 @@ license:		Creative Commons NC-BY-SA-4.0
     <logoSpacingX>0.088</logoSpacingX>
     <scaledLogoSpacing>0.90</scaledLogoSpacing>
     <maxLogoCount>15</maxLogoCount>
-    <minLogoOpacity>0.80</minLogoOpacity>
+    <minLogoOpacity>0.90</minLogoOpacity>
 </textlist>
 
 	<image name="md_image">
