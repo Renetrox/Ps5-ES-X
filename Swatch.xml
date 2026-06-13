@@ -53,6 +53,10 @@ license:		Creative Commons NC-BY-SA-4.0
     <size>1 0.10</size>
     <color>${systemColor}CC</color>
     <zIndex>100</zIndex>
+<pulse>true</pulse>
+    <pulseOpacityMin>0.35</pulseOpacityMin>
+    <pulseOpacityMax>0.95</pulseOpacityMax>
+    <pulseDuration>1600</pulseDuration>
 </image>
 
 
@@ -190,6 +194,18 @@ license:		Creative Commons NC-BY-SA-4.0
 			<path>./_inc/images/main2.png</path>
 			<zIndex>90</zIndex>
 		</image>
+		
+		<image name="Marco" extra="true">
+			<origin>0 0</origin>
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<path>./_inc/images/marco-activo-iso.png</path>
+			<zIndex>90</zIndex>
+		<pulse>true</pulse>
+    <pulseOpacityMin>0.35</pulseOpacityMin>
+    <pulseOpacityMax>0.95</pulseOpacityMax>
+    <pulseDuration>1600</pulseDuration>
+</image>
 
 		<text name="systemName_shadow" extra="true">
     <origin>0 1</origin>
@@ -353,6 +369,18 @@ license:		Creative Commons NC-BY-SA-4.0
 			<size>1 1</size>
 			<zIndex>60</zIndex>
 		</image>
+		
+		<image name="Marco" extra="true">
+			<origin>0 0</origin>
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<path>./_inc/images/marco-activo-iso.png</path>
+			<zIndex>90</zIndex>
+		<pulse>true</pulse>
+    <pulseOpacityMin>0.35</pulseOpacityMin>
+    <pulseOpacityMax>0.95</pulseOpacityMax>
+    <pulseDuration>1600</pulseDuration>
+</image>
 		
 		<image name="fake" extra="true">
 			<path>./_inc/images/fake-carrousel.png</path>
