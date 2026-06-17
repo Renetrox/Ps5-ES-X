@@ -499,11 +499,11 @@ license:		Creative Commons NC-BY-SA-4.0
 			<zIndex>91</zIndex>
 		</image>
   
-  <image name="md_image">
+ <image name="md_image" extra="true">
+	<pos>0.83 0.55</pos>
+	<maxSize>0.20 0.30</maxSize>
 	<origin>0.5 0.5</origin>
-	<pos>0.149 0.195</pos>
-	<size>0.10 0.180</size>
-	<zIndex>0</zIndex>
+		
 </image>
 
 	<!-- SOLO VIDEO -->
@@ -512,8 +512,8 @@ license:		Creative Commons NC-BY-SA-4.0
 			<maxSize>0.20 0.30</maxSize>
 			<origin>0.5 0.5</origin>
 		<delay>5</delay>
-		<showSnapshotNoVideo>true</showSnapshotNoVideo>
-		<showSnapshotDelay>true</showSnapshotDelay>
+		<showSnapshotNoVideo>false</showSnapshotNoVideo>
+		<showSnapshotDelay>false</showSnapshotDelay>
 		<zIndex>91</zIndex>
 	</video>
 
@@ -666,12 +666,7 @@ license:		Creative Commons NC-BY-SA-4.0
     <minLogoOpacity>0.90</minLogoOpacity>
 </textlist>
 
-	<image name="md_image">
-	<origin>0.5 0.5</origin>
-	<pos>0.149 0.195</pos>
-	<size>0.10 0.180</size>
-	<zIndex>0</zIndex>
-</image>
+	
 
 <image name="System-name-logos" extra="true">
 			<origin>0 1</origin>
@@ -682,11 +677,11 @@ license:		Creative Commons NC-BY-SA-4.0
 			<zIndex>91</zIndex>
 		</image>
   
-  <image name="md_image">
+  <image name="md_image" extra="true">
+	<pos>0.83 0.55</pos>
+	<maxSize>0.20 0.30</maxSize>
 	<origin>0.5 0.5</origin>
-	<pos>0.149 0.195</pos>
-	<size>0.10 0.180</size>
-	<zIndex>0</zIndex>
+		
 </image>
 
 	<!-- SOLO VIDEO -->
@@ -695,8 +690,8 @@ license:		Creative Commons NC-BY-SA-4.0
 			<maxSize>0.20 0.30</maxSize>
 			<origin>0.5 0.5</origin>
 		<delay>5</delay>
-		<showSnapshotNoVideo>true</showSnapshotNoVideo>
-		<showSnapshotDelay>true</showSnapshotDelay>
+		<showSnapshotNoVideo>false</showSnapshotNoVideo>
+		<showSnapshotDelay>false</showSnapshotDelay>
 		<zIndex>91</zIndex>
 	</video>
 
