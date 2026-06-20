@@ -14,14 +14,32 @@ license:		Creative Commons NC-BY-SA-4.0
   <include>./_inc/metadata-global/${system.theme}.xml</include>
 
 	
-	 <!-- Background Image -->
-    <view name="system, basic, detailed, grid, video">
-        <image name="background" extra="true">
-            <path>./_inc/images/bg_bokeh.jpg</path>
-            <origin>0 0</origin>
-            <pos>0 0</pos>
-            <size>1 1</size>
-        </image>
+	<!-- Background Image -->
+<view name="system, basic, detailed, grid, video">
+
+    <!-- Fondo base sin puntos -->
+    <image name="background" extra="true">
+        <path>./_inc/images/background.png</path>
+        <origin>0 0</origin>
+        <pos>0 0</pos>
+        <size>1 1</size>
+        <zIndex>0</zIndex>
+    </image>
+
+    <!-- Capa de puntos animada -->
+    <image name="backgroundDots" extra="true">
+        <path>./_inc/images/background-dot.png</path>
+        <origin>0 0</origin>
+        <pos>0 0</pos>
+        <size>1 1</size>
+        <zIndex>13</zIndex>
+
+        <pulse>true</pulse>
+        <pulseOpacityMin>0.005</pulseOpacityMin>
+        <pulseOpacityMax>0.35</pulseOpacityMax>
+        <pulseDuration>8500</pulseDuration>
+    </image>
+       
         
         <image name="md_marquee">
 			<origin>0 0</origin>
@@ -53,10 +71,6 @@ license:		Creative Commons NC-BY-SA-4.0
     <size>1 0.10</size>
     <color>${systemColor}CC</color>
     <zIndex>100</zIndex>
-<pulse>true</pulse>
-    <pulseOpacityMin>0.35</pulseOpacityMin>
-    <pulseOpacityMax>0.95</pulseOpacityMax>
-    <pulseDuration>1600</pulseDuration>
 </image>
 
 
