@@ -515,7 +515,7 @@ license:		Creative Commons NC-BY-SA-4.0
   
  <image name="md_image" extra="true">
 	<pos>0.83 0.55</pos>
-	<maxSize>0.20 0.30</maxSize>
+	<size>0.20 0.30</size>
 	<origin>0.5 0.5</origin>
 		
 </image>
@@ -523,7 +523,7 @@ license:		Creative Commons NC-BY-SA-4.0
 	<!-- SOLO VIDEO -->
 	<video name="md_video">
 		<pos>0.83 0.55</pos>
-			<maxSize>0.20 0.30</maxSize>
+			<size>0.20 0.30</size>
 			<origin>0.5 0.5</origin>
 		<delay>5</delay>
 		<showSnapshotNoVideo>false</showSnapshotNoVideo>
@@ -693,7 +693,7 @@ license:		Creative Commons NC-BY-SA-4.0
   
   <image name="md_image" extra="true">
 	<pos>0.83 0.55</pos>
-	<maxSize>0.20 0.30</maxSize>
+	<size>0.20 0.30</size>
 	<origin>0.5 0.5</origin>
 		
 </image>
@@ -701,7 +701,7 @@ license:		Creative Commons NC-BY-SA-4.0
 	<!-- SOLO VIDEO -->
 	<video name="md_video">
 		<pos>0.83 0.55</pos>
-			<maxSize>0.20 0.30</maxSize>
+			<size>0.20 0.30</size>
 			<origin>0.5 0.5</origin>
 		<delay>5</delay>
 		<showSnapshotNoVideo>false</showSnapshotNoVideo>
