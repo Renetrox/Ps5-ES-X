@@ -25,15 +25,15 @@ license:		Creative Commons NC-BY-SA-4.0
         <zIndex>13</zIndex>
 
         <frameAnimation>true</frameAnimation>
-    <frame1>./_inc/images/background-live/bg_frame_1.jpg</frame1>
-    <frame2>./_inc/images/background-live/bg_frame_2.jpg</frame2>
-    <frame3>./_inc/images/background-live/bg_frame_3.jpg</frame3>
-    <frame4>./_inc/images/background-live/bg_frame_4.jpg</frame4>
-    <frame5>./_inc/images/background-live/bg_frame_5.jpg</frame5>
-    <frame6>./_inc/images/background-live/bg_frame_6.jpg</frame6>
+    <frame1>./_inc/images/background-live/bg_frame_1.png</frame1>
+    <frame2>./_inc/images/background-live/bg_frame_2.png</frame2>
+    <frame3>./_inc/images/background-live/bg_frame_3.png</frame3>
+    <frame4>./_inc/images/background-live/bg_frame_4.png</frame4>
+    <frame5>./_inc/images/background-live/bg_frame_5.png</frame5>
+    <frame6>./_inc/images/background-live/bg_frame_6.png</frame6>
 
 
-        <frameDuration>380</frameDuration>
+        <frameDuration>180</frameDuration>
         <frameLoop>true</frameLoop>
         <frameActiveTime>2700</frameActiveTime>
     </image>
@@ -58,6 +58,7 @@ license:		Creative Commons NC-BY-SA-4.0
 			this gives you a nice transparent color overlay.
 			It does make the image from the path transparent as well, however.-->
 		<image name="background_system_image" extra="true">
+		<path>./_inc/images/background.png</path>
 			<origin>0 0</origin>
 			<pos>0 0</pos>
 			<size>1 1</size>
