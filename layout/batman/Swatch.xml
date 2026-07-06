@@ -25,18 +25,13 @@ license:		Creative Commons NC-BY-SA-4.0
         <zIndex>13</zIndex>
 
         <frameAnimation>true</frameAnimation>
-    <frame1>./_inc/images/batman-live/batman_frame_01.png</frame1>
-    <frame2>./_inc/images/batman-live/batman_frame_02.png</frame2>
-    <frame3>./_inc/images/batman-live/batman_frame_03.png</frame3>
-    <frame4>./_inc/images/batman-live/batman_frame_04.png</frame4>
-    <frame5>./_inc/images/batman-live/batman_frame_05.png</frame5>
-    <frame6>./_inc/images/batman-live/batman_frame_06.png</frame6>
-    <frame7>./_inc/images/batman-live/batman_frame_07.png</frame7>
-    <frame8>./_inc/images/batman-live/batman_frame_08.png</frame8>
-     <frame9>./_inc/images/batman-live/batman_frame_09.png</frame9>
-      <frame10>./_inc/images/batman-live/batman_frame_10.png</frame10>
-
-
+    <frame1>./_inc/images/batman-live/frame_01.png</frame1>
+    <frame2>./_inc/images/batman-live/frame_02.png</frame2>
+    <frame3>./_inc/images/batman-live/frame_03.png</frame3>
+    <frame4>./_inc/images/batman-live/frame_04.png</frame4>
+    <frame5>./_inc/images/batman-live/frame_05.png</frame5>
+    <frame6>./_inc/images/batman-live/frame_06.png</frame6>
+   
         <frameDuration>280</frameDuration>
         <frameLoop>true</frameLoop>
         <frameActiveTime>8000</frameActiveTime>
