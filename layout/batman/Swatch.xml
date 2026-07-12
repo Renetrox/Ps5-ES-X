@@ -187,6 +187,8 @@ license:		Creative Commons NC-BY-SA-4.0
 			<backgroundColor>00000000</backgroundColor>
 			<alignment>right</alignment>
 			<color>FFFFFF</color>
+    <textStrokeColor>000000</textStrokeColor>
+    <textStrokeSize>1.5</textStrokeSize>
 			<fontPath>./_inc/fonts/VastShadow-Regular.ttf</fontPath>
 			<fontSize>0.015</fontSize>
 			<zIndex>100</zIndex>
@@ -244,6 +246,8 @@ license:		Creative Commons NC-BY-SA-4.0
 			<forceUppercase>false</forceUppercase>
 			<lineSpacing>1.05</lineSpacing>
 			<color>FFFFFF</color>
+    <textStrokeColor>000000</textStrokeColor>
+    <textStrokeSize>1.5</textStrokeSize>
 			<alignment>left</alignment>
 			<fontSize>0.022</fontSize>
 			<zIndex>160</zIndex>
