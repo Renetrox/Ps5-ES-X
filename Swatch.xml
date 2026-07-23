@@ -193,7 +193,7 @@ license:		Creative Commons NC-BY-SA-4.0
 			<color>FFFFFF</color>
     <textStrokeColor>000000</textStrokeColor>
     <textStrokeSize>1.5</textStrokeSize>
-			<fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
+			<fontPath>./_inc/fonts/VastShadow-Regular.ttf</fontPath>
 			<fontSize>0.015</fontSize>
 			<zIndex>100</zIndex>
 		</text>
@@ -289,13 +289,18 @@ license:		Creative Commons NC-BY-SA-4.0
 			<zIndex>91</zIndex>
 		</image>
 
-		<image name="mostplayed_cover" extra="true">
-			<path>${system.mostPlayedImage}</path>
-			<pos>0.83 0.55</pos>
-			<maxSize>0.20 0.30</maxSize>
-			<origin>0.5 0.5</origin>
-			<zIndex>130</zIndex>
-		</image>
+				<video name="mostPlayedVideo">
+    <pos>0.83 0.55</pos>
+    <maxSize>0.20 0.30</maxSize>
+    <origin>0.5 0.5</origin>
+
+    <delay>5.0</delay>
+    <showSnapshotNoVideo>true</showSnapshotNoVideo>
+    <showSnapshotDelay>true</showSnapshotDelay>
+
+    <visible>true</visible>
+    <zIndex>130</zIndex>
+</video>
 
 	</view>
 </feature>
