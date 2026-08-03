@@ -296,7 +296,7 @@ license:		Creative Commons NC-BY-SA-4.0
 
     <delay>5.0</delay>
     <showSnapshotNoVideo>true</showSnapshotNoVideo>
-    <showSnapshotDelay>true</showSnapshotDelay>
+    <showSnapshotDelay>false</showSnapshotDelay>
 
     <visible>true</visible>
     <zIndex>130</zIndex>
