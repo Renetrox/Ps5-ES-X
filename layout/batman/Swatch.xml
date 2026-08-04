@@ -1,5 +1,5 @@
 <!--
-theme name:		Swatch - ps5
+theme name:		Batman - ps5
 version:		1.02
 author:			FPlusGames
 license:		Creative Commons NC-BY-SA-4.0
@@ -286,13 +286,17 @@ license:		Creative Commons NC-BY-SA-4.0
 		</image>
 
 		<video name="mostPlayedVideo">
-    <pos>0.83 0.55</pos>
+    	<pos>0.83 0.55</pos>
     <maxSize>0.20 0.30</maxSize>
     <origin>0.5 0.5</origin>
 
     <delay>5.0</delay>
     <showSnapshotNoVideo>true</showSnapshotNoVideo>
     <showSnapshotDelay>false</showSnapshotDelay>
+
+    <iterationCount>1</iterationCount>
+    <onIterationsDone>image</onIterationsDone>
+
     <visible>true</visible>
     <zIndex>130</zIndex>
 </video>
@@ -462,7 +466,7 @@ license:		Creative Commons NC-BY-SA-4.0
 	
 	</view>
 	
-	<view name="detailed">
+	<view name="detailed, video">
 
 	<!-- LISTA IZQUIERDA -->
 		<textlist name="gamelist">
@@ -520,23 +524,23 @@ license:		Creative Commons NC-BY-SA-4.0
 			<zIndex>91</zIndex>
 		</image>
   
- <image name="md_image" extra="true">
-	<pos>0.83 0.55</pos>
-	<size>0.20 0.30</size>
-	<origin>0.5 0.5</origin>
-		
-</image>
 
 	<!-- SOLO VIDEO -->
 	<video name="md_video">
-		<pos>0.83 0.55</pos>
-			<size>0.20 0.30</size>
-			<origin>0.5 0.5</origin>
-		<delay>5</delay>
-		<showSnapshotNoVideo>false</showSnapshotNoVideo>
-		<showSnapshotDelay>false</showSnapshotDelay>
-		<zIndex>91</zIndex>
-	</video>
+			<pos>0.83 0.55</pos>
+    <maxSize>0.20 0.30</maxSize>
+    <origin>0.5 0.5</origin>
+
+    <delay>5.0</delay>
+    <showSnapshotNoVideo>true</showSnapshotNoVideo>
+    <showSnapshotDelay>false</showSnapshotDelay>
+
+    <iterationCount>1</iterationCount>
+    <onIterationsDone>image</onIterationsDone>
+
+    <visible>true</visible>
+    <zIndex>130</zIndex>
+</video>
 
 	<!-- AÑO -->
 	<datetime name="md_releasedate">
@@ -639,183 +643,7 @@ license:		Creative Commons NC-BY-SA-4.0
 
 </view>
 
-<view name="video">
 
-	<!-- LISTA IZQUIERDA -->
-		<textlist name="gamelist">
-    <selectorColor>FFFFFF00</selectorColor>
-    <selectedColor>FFFFFF00</selectedColor>
-    <primaryColor>FFFFFF00</primaryColor>
-    <secondaryColor>FFFFFF00</secondaryColor>
-
-    <fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
-    <lineSpacing>1.00</lineSpacing>
-
-    <alignment>left</alignment>
-    <size>1.00 0.25</size>
-    <pos>-0.021 0.099</pos>
-    <zIndex>50</zIndex>
-
-    <orientation>horizontal</orientation>
-    <carouselMode>true</carouselMode>
-    <carouselLoop>true</carouselLoop>
-
-    <carouselItemColor>00000000</carouselItemColor>
-    <carouselSelectedItemColor>00000000</carouselSelectedItemColor>
-
-    <carouselImageType>thumbnail</carouselImageType>
-    <carouselFallbackImage>./_inc/caratulas/logos/joystick.png</carouselFallbackImage>
-    <carouselImageFit>contain</carouselImageFit>
-    <carouselImagePadding>0.004 0.006</carouselImagePadding>
-    <carouselImageLockSize>true</carouselImageLockSize>
-    <carouselShowText>false</carouselShowText>
-
-    <carouselImageBorder>./_inc/images/card_border.png</carouselImageBorder>
-    <carouselImageBorderSelected>./_inc/images/card_border.png</carouselImageBorderSelected>
-    <carouselImageBorderScale>1.18</carouselImageBorderScale>
-    <carouselImageBorderColor>888888FF</carouselImageBorderColor>
-
-    <logoScale>1.40</logoScale>
-    <logoSize>0.067 0.521</logoSize>
-    <logoOffsetX>-0.330</logoOffsetX>
-    <logoOffsetY>-0.004</logoOffsetY>
-    <logoAlignment>top</logoAlignment>
-
-    <logoSpacingX>0.088</logoSpacingX>
-    <scaledLogoSpacing>0.90</scaledLogoSpacing>
-    <maxLogoCount>15</maxLogoCount>
-    <minLogoOpacity>0.90</minLogoOpacity>
-</textlist>
-
-	
-
-<image name="System-name-logos" extra="true">
-			<origin>0 1</origin>
-			<pos>0.210 0.294</pos>   
-			
-			<maxSize>0.05 0.05</maxSize>
-			<path>./_inc/caratulas/logos/${system.theme}.png</path>
-			<zIndex>91</zIndex>
-		</image>
-  
-  <image name="md_image" extra="true">
-	<pos>0.83 0.55</pos>
-	<size>0.20 0.30</size>
-	<origin>0.5 0.5</origin>
-		
-</image>
-
-	<!-- SOLO VIDEO -->
-	<video name="md_video">
-		<pos>0.83 0.55</pos>
-			<size>0.20 0.30</size>
-			<origin>0.5 0.5</origin>
-		<delay>5</delay>
-		<showSnapshotNoVideo>false</showSnapshotNoVideo>
-		<showSnapshotDelay>false</showSnapshotDelay>
-		<zIndex>91</zIndex>
-	</video>
-
-	<!-- AÑO -->
-	<datetime name="md_releasedate">
-		<pos>0.76 0.79</pos>
-			<size>0.20 0.08</size>
-			<forceUppercase>false</forceUppercase>
-		<format>%Y</format>
-		<fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
-		<fontSize>0.015</fontSize>
-		<color>FCCA11FF</color>
-		<zIndex>70</zIndex>
-	</datetime>
-
-	<!-- DEVELOPER -->
-	<text name="md_developer">
-		<pos>0.82 0.79</pos>
-			<size>0.25 0.08</size>
-			<forceUppercase>false</forceUppercase>
-		<fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
-		<fontSize>0.014</fontSize>
-		
-		<zIndex>70</zIndex>
-	</text>
-	
-	<!-- ICONO JUGADORES -->
-        <text name="md_players" extra="true">
-		<pos>0.76 0.78</pos>
-		<size>0.23 0.03</size>
-		<fontPath>./_inc/fonts/players.ttf</fontPath>
-		<fontSize>0.028</fontSize>
-		<zIndex>70</zIndex>
-           </text>
-
-	<!-- GÉNERO -->
-	<text name="md_genre">
-		<origin>0 0</origin>
-    <pos>0.100 0.725</pos>
-    <size>0.683 0.035</size>
-		<fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
-		<fontSize>0.022</fontSize>
-		<textStrokeColor>000000CC</textStrokeColor>
-	<textStrokeSize>1</textStrokeSize>
-
-		<zIndex>70</zIndex>
-	</text>
-
-	<!-- RATING -->
-	<rating name="md_rating">
-		<filledPath>./_inc/images/rating_thumb_full.svg</filledPath>
-		<unfilledPath>./_inc/images/rating_thumb_empty.svg</unfilledPath>
-		<pos>0.82 0.78</pos>
-		<size>0.10 0.032</size>
-		<color>FF0000</color>
-		<zIndex>70</zIndex>
-	</rating>
-
-	<!-- DESCRIPCIÓN -->
-	<text name="md_description">
-		<pos>0.52 0.74</pos>
-		<size>0.43 0.13</size>
-		<fontPath>./_inc/fonts/SST Light.ttf</fontPath>
-		<fontSize>0.027</fontSize>
-		<color>FFFFFF00</color>
-		<alignment>left</alignment>
-		<forceUppercase>0</forceUppercase>
-		<lineSpacing>1.12</lineSpacing>
-		<zIndex>0</zIndex>
-	</text>
-
-	<!-- BARRA SUPERIOR / FECHA -->
-	<text name="md_lbl_lastplayed">
-		<fontPath>./_inc/fonts/zrnic rg.ttf</fontPath>
-		<origin>0 0</origin>
-   			<pos>0.75 0.70</pos>
-   			<alignment>right</alignment>
-		<fontSize>0.030</fontSize>
-		<color>F8F8F8</color>
-		<zIndex>0</zIndex>
-	</text>
-	
-	<image name="Last" extra="true">
-			<origin>0 0</origin>
-   			<pos>0.75 0.70</pos>
-			
-			<maxSize>0.05 0.05</maxSize>
-			<path>./_inc/caratulas/logos/icon-playtime.svg</path>
-			<zIndex>91</zIndex>
-		</image>
-
-	<datetime name="md_lastplayed">
-		<fontPath>./_inc/fonts/zrnic rg.ttf</fontPath>
-		<origin>0 0</origin>
-   			<pos>0.78 0.70</pos>
-   			<alignment>center</alignment>
-		<fontSize>0.025</fontSize>
-		<color>F8F8F8</color>
-		<zIndex>22</zIndex>
-	</datetime>
-
-</view>
-	
 <!-- =========================================================
      GRID VIEW (Game List)
      ========================================================= -->
