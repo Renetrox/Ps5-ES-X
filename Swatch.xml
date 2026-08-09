@@ -1,5 +1,5 @@
 <!--
-theme name:		Swatch - ps5
+theme name:		Batman - ps5
 version:		1.02
 author:			FPlusGames
 license:		Creative Commons NC-BY-SA-4.0
@@ -15,7 +15,7 @@ license:		Creative Commons NC-BY-SA-4.0
 
 	
 	<!-- Background Image -->
-<view name="system, basic, detailed, grid, video">
+<view name="system">
 
     <!-- Fondo vivo por cuadros, sin video -->
     <image name="backgroundLive" extra="true">
@@ -25,31 +25,18 @@ license:		Creative Commons NC-BY-SA-4.0
         <zIndex>13</zIndex>
 
         <frameAnimation>true</frameAnimation>
-    <frame1>./_inc/images/background-live/bg_frame_01.png</frame1>
-    <frame2>./_inc/images/background-live/bg_frame_02.png</frame2>
-    <frame3>./_inc/images/background-live/bg_frame_03.png</frame3>
-    <frame4>./_inc/images/background-live/bg_frame_04.png</frame4>
-    <frame5>./_inc/images/background-live/bg_frame_05.png</frame5>
-    <frame6>./_inc/images/background-live/bg_frame_06.png</frame6>
-    <frame7>./_inc/images/background-live/bg_frame_07.png</frame7>
-    <frame8>./_inc/images/background-live/bg_frame_08.png</frame8>
-     <frame9>./_inc/images/background-live/bg_frame_09.png</frame9>
-      <frame10>./_inc/images/background-live/bg_frame_10.png</frame10>
-
-
+    <frame1>./_inc/images/batman-live/frame_01.png</frame1>
+    <frame2>./_inc/images/batman-live/frame_02.png</frame2>
+    <frame3>./_inc/images/batman-live/frame_03.png</frame3>
+    <frame4>./_inc/images/batman-live/frame_04.png</frame4>
+    <frame5>./_inc/images/batman-live/frame_05.png</frame5>
+    <frame6>./_inc/images/batman-live/frame_06.png</frame6>
+   
         <frameDuration>280</frameDuration>
         <frameLoop>true</frameLoop>
         <frameActiveTime>8000</frameActiveTime>
     </image>
        
-        
-        <image name="md_marquee">
-			<origin>0 0</origin>
-			<pos>0.09 0.55</pos>
-			<maxSize>0.2 0.15</maxSize>
-			
-			<color>104474F0</color>
-		</image>
     </view>
 
     <!-- End Background Image -->
@@ -61,13 +48,22 @@ license:		Creative Commons NC-BY-SA-4.0
 			When you later initialize a path, like in theme.xml,
 			this gives you a nice transparent color overlay.
 			It does make the image from the path transparent as well, however.-->
-		<image name="bg_system_image" extra="true">
+		<image name="background_system_image" extra="true">
 		<path>./_inc/images/background.png</path>
 			<origin>0 0</origin>
 			<pos>0 0</pos>
 			<size>1 1</size>
 		</image>
-		 <image name="bg_help" extra="true">
+		
+		 <image name="md_marquee">
+			<origin>0 0</origin>
+			<pos>0.09 0.55</pos>
+			<maxSize>0.2 0.15</maxSize>
+			
+			<color>104474F0</color>
+		</image>
+		
+		 <image name="background_help" extra="true">
     <path>./_inc/images/bg_helpbar.png</path>
     <origin>0 1</origin>
     <pos>0 1.03</pos>
@@ -193,7 +189,7 @@ license:		Creative Commons NC-BY-SA-4.0
 			<color>FFFFFF</color>
     <textStrokeColor>000000</textStrokeColor>
     <textStrokeSize>1.5</textStrokeSize>
-			<fontPath>./_inc/fonts/VastShadow-Regular.ttf</fontPath>
+			<fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
 			<fontSize>0.015</fontSize>
 			<zIndex>100</zIndex>
 		</text>
@@ -289,8 +285,8 @@ license:		Creative Commons NC-BY-SA-4.0
 			<zIndex>91</zIndex>
 		</image>
 
-				<video name="mostPlayedVideo">
-    <pos>0.83 0.55</pos>
+		<video name="mostPlayedVideo">
+    	<pos>0.83 0.55</pos>
     <maxSize>0.20 0.30</maxSize>
     <origin>0.5 0.5</origin>
 
@@ -305,7 +301,7 @@ license:		Creative Commons NC-BY-SA-4.0
     <zIndex>130</zIndex>
 </video>
 
-</view>
+	</view>
 </feature>
 
 <feature supported="navigationsounds">
@@ -389,6 +385,7 @@ license:		Creative Commons NC-BY-SA-4.0
 		<pos>0 0</pos>
 		<size>1 1</size>
 		<zIndex>14</zIndex>
+		 <scrollFadeIn>true</scrollFadeIn>
 		</image>
 		
 		<!-- Barra superior -->
@@ -495,7 +492,7 @@ license:		Creative Commons NC-BY-SA-4.0
     <carouselSelectedItemColor>00000000</carouselSelectedItemColor>
 
     <carouselImageType>thumbnail</carouselImageType>
-    <carouselFallbackImage>./_inc/caratulas/_default_game.png</carouselFallbackImage>
+    <carouselFallbackImage>./_inc/caratulas/logos/joystick.png</carouselFallbackImage>
     <carouselImageFit>contain</carouselImageFit>
     <carouselImagePadding>0.004 0.006</carouselImagePadding>
     <carouselImageLockSize>true</carouselImageLockSize>

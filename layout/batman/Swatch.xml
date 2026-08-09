@@ -385,6 +385,7 @@ license:		Creative Commons NC-BY-SA-4.0
 		<pos>0 0</pos>
 		<size>1 1</size>
 		<zIndex>14</zIndex>
+		 <scrollFadeIn>true</scrollFadeIn>
 		</image>
 		
 		<!-- Barra superior -->
@@ -491,7 +492,7 @@ license:		Creative Commons NC-BY-SA-4.0
     <carouselSelectedItemColor>00000000</carouselSelectedItemColor>
 
     <carouselImageType>thumbnail</carouselImageType>
-    <carouselFallbackImage>./_inc/caratulas/_default_game.png</carouselFallbackImage>
+    <carouselFallbackImage>./_inc/caratulas/logos/joystick.png</carouselFallbackImage>
     <carouselImageFit>contain</carouselImageFit>
     <carouselImagePadding>0.004 0.006</carouselImagePadding>
     <carouselImageLockSize>true</carouselImageLockSize>
@@ -527,7 +528,7 @@ license:		Creative Commons NC-BY-SA-4.0
 
 	<!-- SOLO VIDEO -->
 	<video name="md_video">
-			<pos>0.83 0.55</pos>
+		<pos>0.83 0.55</pos>
     <maxSize>0.20 0.30</maxSize>
     <origin>0.5 0.5</origin>
 
@@ -541,6 +542,7 @@ license:		Creative Commons NC-BY-SA-4.0
     <visible>true</visible>
     <zIndex>130</zIndex>
 </video>
+
 
 	<!-- AÑO -->
 	<datetime name="md_releasedate">
@@ -644,6 +646,7 @@ license:		Creative Commons NC-BY-SA-4.0
 </view>
 
 
+	
 <!-- =========================================================
      GRID VIEW (Game List)
      ========================================================= -->

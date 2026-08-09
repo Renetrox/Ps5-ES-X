@@ -389,6 +389,7 @@ license:		Creative Commons NC-BY-SA-4.0
 		<pos>0 0</pos>
 		<size>1 1</size>
 		<zIndex>14</zIndex>
+		 <scrollFadeIn>true</scrollFadeIn>
 		</image>
 		
 		<!-- Barra superior -->
@@ -495,7 +496,7 @@ license:		Creative Commons NC-BY-SA-4.0
     <carouselSelectedItemColor>00000000</carouselSelectedItemColor>
 
     <carouselImageType>thumbnail</carouselImageType>
-    <carouselFallbackImage>./_inc/caratulas/_default_game.png</carouselFallbackImage>
+    <carouselFallbackImage>./_inc/caratulas/logos/joystick.png</carouselFallbackImage>
     <carouselImageFit>contain</carouselImageFit>
     <carouselImagePadding>0.004 0.006</carouselImagePadding>
     <carouselImageLockSize>true</carouselImageLockSize>
