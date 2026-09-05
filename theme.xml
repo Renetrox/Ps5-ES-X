@@ -21,11 +21,12 @@
         <text name="systemInfo">
             <origin>0 0</origin>
             <pos>1.50 1.50</pos>
-            <size>0.001 0.001</size>
+            <size>0.683 0.035</size>
             <fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
-            <fontSize>0.001</fontSize>
-            <color>00000000</color>
+            <fontSize>0.015</fontSize>
+            <color>FFFFFFFF</color>
             <alignment>left</alignment>
+            <zIndex>0</zIndex>
         </text>
     </view>
 </theme>
