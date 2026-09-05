@@ -15,4 +15,17 @@
     <include>./Swatch.xml</include>
     <include>./avatar.xml</include>
     <include>./play.xml</include>
+
+    <!-- Mantener systemInfo definido pero fuera de cuadro para evitar el fallback de ES-X -->
+    <view name="system">
+        <text name="systemInfo">
+            <origin>0 0</origin>
+            <pos>1.50 1.50</pos>
+            <size>0.001 0.001</size>
+            <fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
+            <fontSize>0.001</fontSize>
+            <color>00000000</color>
+            <alignment>left</alignment>
+        </text>
+    </view>
 </theme>
