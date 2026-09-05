@@ -180,20 +180,6 @@ license:		Creative Commons NC-BY-SA-4.0
 			<zIndex>85</zIndex>
 		</carousel>
       
-		<text name="systemInfo">
-			<origin>0 0</origin>
-   			<pos>0.209 0.82</pos> <!-- offset pequeño -->
-    			<size>0.683 0.035</size>
-			<backgroundColor>00000000</backgroundColor>
-			<alignment>right</alignment>
-			<color>FFFFFF</color>
-    <textStrokeColor>000000</textStrokeColor>
-    <textStrokeSize>1.5</textStrokeSize>
-			<fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
-			<fontSize>0.015</fontSize>
-			<zIndex>100</zIndex>
-		</text>
-      
 		<image name="background0" extra="true">
                 <origin>0 0</origin>
                 <pos>0 0</pos>
@@ -252,7 +238,7 @@ license:		Creative Commons NC-BY-SA-4.0
 			<fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
 			<fontSize>0.022</fontSize>
 			<zIndex>160</zIndex>
-			<text>${system.mostPlayedName}
+			<text>♛ ${system.mostPlayedName}
 ▶ ${system.mostPlayedCount}    ★ ${system.favoriteCount}    🎮 ${system.gameCount}</text>
 		</text>
 
