@@ -210,17 +210,20 @@ license:		Creative Commons NC-BY-SA-4.0
     <zIndex>100</zIndex>
 </text>
 		<text name="trophyStats" extra="true">
-			<pos>0.755 0.735</pos>
-			<size>0.25 0.09</size>
+			<pos>0.76 0.76</pos>
+			<size>0.25 0.08</size>
 			<forceUppercase>false</forceUppercase>
-			<lineSpacing>1.15</lineSpacing>
+			<lineSpacing>1.05</lineSpacing>
 			<color>FFFFFF</color>
 			<alignment>left</alignment>
-			<fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
 			<fontSize>0.022</fontSize>
 			<zIndex>160</zIndex>
-			<text>${system.mostPlayedName}
-▶ ${system.mostPlayedCount}    ★ ${system.favoriteCount}    🎮 ${system.gameCount}</text>
+			<text>
+ ${system.mostPlayedFull} plays
+ ${system.favoriteCount} Fav ✯
+
+		</text>
+		
 		</text>
 
 		<image name="background4" extra="true">
@@ -237,6 +240,15 @@ license:		Creative Commons NC-BY-SA-4.0
 			
 			<maxSize>0.05 0.05</maxSize>
 			<path>./_inc/caratulas/logos/${system.theme}.png</path>
+			<zIndex>91</zIndex>
+		</image>
+		
+		<image name="last" extra="true">
+			<origin>0 0</origin>
+   			<pos>0.72 0.76</pos>
+			
+			<maxSize>0.05 0.05</maxSize>
+			<path>./_inc/caratulas/logos/icon-playcount.png</path>
 			<zIndex>91</zIndex>
 		</image>
 

@@ -244,19 +244,16 @@ license:		Creative Commons NC-BY-SA-4.0
 			<pos>0.76 0.76</pos>
 			<size>0.25 0.08</size>
 			<forceUppercase>false</forceUppercase>
-			<lineSpacing>1.05</lineSpacing>
+			<lineSpacing>1.15</lineSpacing>
 			<color>FFFFFF</color>
     <textStrokeColor>000000</textStrokeColor>
     <textStrokeSize>1.5</textStrokeSize>
 			<alignment>left</alignment>
+			<fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
 			<fontSize>0.022</fontSize>
 			<zIndex>160</zIndex>
-			<text>
- ${system.mostPlayedFull} plays
- ${system.favoriteCount} Fav ✯
-
-		</text>
-		
+			<text>${system.mostPlayedName}
+▶ ${system.mostPlayedCount}    ★ ${system.favoriteCount}    🎮 ${system.gameCount}</text>
 		</text>
 
 		<image name="background4" extra="true">
@@ -273,15 +270,6 @@ license:		Creative Commons NC-BY-SA-4.0
 			
 			<maxSize>0.05 0.05</maxSize>
 			<path>./_inc/caratulas/logos/${system.theme}.png</path>
-			<zIndex>91</zIndex>
-		</image>
-		
-		<image name="last" extra="true">
-			<origin>0 0</origin>
-   			<pos>0.72 0.76</pos>
-			
-			<maxSize>0.05 0.05</maxSize>
-			<path>./_inc/caratulas/logos/icon-playcount.png</path>
 			<zIndex>91</zIndex>
 		</image>
 
