@@ -1,5 +1,5 @@
 <!--
-theme name:		Swatch - ps5
+theme name:		Batman - ps5
 version:		1.02
 author:			FPlusGames
 license:		Creative Commons NC-BY-SA-4.0
@@ -25,18 +25,13 @@ license:		Creative Commons NC-BY-SA-4.0
         <zIndex>13</zIndex>
 
         <frameAnimation>true</frameAnimation>
-    <frame1>./_inc/images/background-live/bg_frame_01.png</frame1>
-    <frame2>./_inc/images/background-live/bg_frame_02.png</frame2>
-    <frame3>./_inc/images/background-live/bg_frame_03.png</frame3>
-    <frame4>./_inc/images/background-live/bg_frame_04.png</frame4>
-    <frame5>./_inc/images/background-live/bg_frame_05.png</frame5>
-    <frame6>./_inc/images/background-live/bg_frame_06.png</frame6>
-    <frame7>./_inc/images/background-live/bg_frame_07.png</frame7>
-    <frame8>./_inc/images/background-live/bg_frame_08.png</frame8>
-     <frame9>./_inc/images/background-live/bg_frame_09.png</frame9>
-      <frame10>./_inc/images/background-live/bg_frame_10.png</frame10>
-
-
+    <frame1>./_inc/images/batman-live/frame_01.png</frame1>
+    <frame2>./_inc/images/batman-live/frame_02.png</frame2>
+    <frame3>./_inc/images/batman-live/frame_03.png</frame3>
+    <frame4>./_inc/images/batman-live/frame_04.png</frame4>
+    <frame5>./_inc/images/batman-live/frame_05.png</frame5>
+    <frame6>./_inc/images/batman-live/frame_06.png</frame6>
+   
         <frameDuration>280</frameDuration>
         <frameLoop>true</frameLoop>
         <frameActiveTime>8000</frameActiveTime>
@@ -53,14 +48,14 @@ license:		Creative Commons NC-BY-SA-4.0
 			When you later initialize a path, like in theme.xml,
 			this gives you a nice transparent color overlay.
 			It does make the image from the path transparent as well, however.-->
-		<image name="bg_system_image" extra="true">
+		<image name="background_system_image" extra="true">
 		<path>./_inc/images/background.png</path>
 			<origin>0 0</origin>
 			<pos>0 0</pos>
 			<size>1 1</size>
 		</image>
 		
-		<image name="md_marquee">
+		 <image name="md_marquee">
 			<origin>0 0</origin>
 			<pos>0.09 0.55</pos>
 			<maxSize>0.2 0.15</maxSize>
@@ -68,7 +63,7 @@ license:		Creative Commons NC-BY-SA-4.0
 			<color>104474F0</color>
 		</image>
 		
-		 <image name="bg_help" extra="true">
+		 <image name="background_help" extra="true">
     <path>./_inc/images/bg_helpbar.png</path>
     <origin>0 1</origin>
     <pos>0 1.03</pos>
@@ -185,6 +180,20 @@ license:		Creative Commons NC-BY-SA-4.0
 			<zIndex>85</zIndex>
 		</carousel>
       
+		<text name="systemInfo">
+			<origin>0 0</origin>
+   			<pos>0.209 0.82</pos> <!-- offset pequeño -->
+    			<size>0.683 0.035</size>
+			<backgroundColor>00000000</backgroundColor>
+			<alignment>right</alignment>
+			<color>FFFFFF</color>
+    <textStrokeColor>000000</textStrokeColor>
+    <textStrokeSize>1.5</textStrokeSize>
+			<fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
+			<fontSize>0.015</fontSize>
+			<zIndex>100</zIndex>
+		</text>
+      
 		<image name="background0" extra="true">
                 <origin>0 0</origin>
                 <pos>0 0</pos>
@@ -235,16 +244,19 @@ license:		Creative Commons NC-BY-SA-4.0
 			<pos>0.76 0.76</pos>
 			<size>0.25 0.08</size>
 			<forceUppercase>false</forceUppercase>
-			<lineSpacing>1.15</lineSpacing>
+			<lineSpacing>1.05</lineSpacing>
 			<color>FFFFFF</color>
     <textStrokeColor>000000</textStrokeColor>
     <textStrokeSize>1.5</textStrokeSize>
 			<alignment>left</alignment>
-			<fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
 			<fontSize>0.022</fontSize>
 			<zIndex>160</zIndex>
-			<text>♛ ${system.mostPlayedName}
-▶ ${system.mostPlayedCount}    ★ ${system.favoriteCount}    🎮 ${system.gameCount}</text>
+			<text>
+ ${system.mostPlayedFull} plays
+ ${system.favoriteCount} Fav ✯
+
+		</text>
+		
 		</text>
 
 		<image name="background4" extra="true">
@@ -260,14 +272,21 @@ license:		Creative Commons NC-BY-SA-4.0
 			<pos>0.210 0.294</pos>   
 			
 			<maxSize>0.05 0.05</maxSize>
-
 			<path>./_inc/caratulas/logos/${system.theme}.png</path>
-
+			<zIndex>91</zIndex>
+		</image>
+		
+		<image name="last" extra="true">
+			<origin>0 0</origin>
+   			<pos>0.72 0.76</pos>
+			
+			<maxSize>0.05 0.05</maxSize>
+			<path>./_inc/caratulas/logos/icon-playcount.png</path>
 			<zIndex>91</zIndex>
 		</image>
 
-				<video name="mostPlayedVideo">
-    <pos>0.83 0.55</pos>
+		<video name="mostPlayedVideo">
+    	<pos>0.83 0.55</pos>
     <maxSize>0.20 0.30</maxSize>
     <origin>0.5 0.5</origin>
 
@@ -282,7 +301,7 @@ license:		Creative Commons NC-BY-SA-4.0
     <zIndex>130</zIndex>
 </video>
 
-</view>
+	</view>
 </feature>
 
 <feature supported="navigationsounds">
@@ -475,14 +494,17 @@ license:		Creative Commons NC-BY-SA-4.0
     <carouselImageType>thumbnail</carouselImageType>
     <carouselFallbackImage>./_inc/caratulas/logos/joystick.png</carouselFallbackImage>
     <carouselImageFit>contain</carouselImageFit>
-    <carouselImagePadding>0.004 0.006</carouselImagePadding>
-    <carouselImageLockSize>true</carouselImageLockSize>
-    <carouselShowText>false</carouselShowText>
+<carouselImageCornerRadius>0.010</carouselImageCornerRadius>
+<carouselImageBoxSize>0.100 0.710</carouselImageBoxSize>
+<carouselImageLockSize>true</carouselImageLockSize>
+<carouselImageZIndex>20</carouselImageZIndex>
+
 
     <carouselImageBorder>./_inc/images/card_border.png</carouselImageBorder>
     <carouselImageBorderSelected>./_inc/images/card_border.png</carouselImageBorderSelected>
-    <carouselImageBorderScale>1.18</carouselImageBorderScale>
+    <carouselImageBorderScale>1.16</carouselImageBorderScale>
     <carouselImageBorderColor>FFFFFFFF</carouselImageBorderColor>
+        <carouselImageBorderZIndex>10</carouselImageBorderZIndex>
 
     <logoScale>1.40</logoScale>
     <logoSize>0.067 0.521</logoSize>

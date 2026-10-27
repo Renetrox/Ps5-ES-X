@@ -180,6 +180,20 @@ license:		Creative Commons NC-BY-SA-4.0
 			<zIndex>85</zIndex>
 		</carousel>
       
+		<text name="systemInfo">
+			<origin>0 0</origin>
+   			<pos>0.209 0.82</pos> <!-- offset pequeño -->
+    			<size>0.683 0.035</size>
+			<backgroundColor>00000000</backgroundColor>
+			<alignment>right</alignment>
+			<color>FFFFFF</color>
+    <textStrokeColor>000000</textStrokeColor>
+    <textStrokeSize>1.5</textStrokeSize>
+			<fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
+			<fontSize>0.015</fontSize>
+			<zIndex>100</zIndex>
+		</text>
+      
 		<image name="background0" extra="true">
                 <origin>0 0</origin>
                 <pos>0 0</pos>
@@ -230,16 +244,19 @@ license:		Creative Commons NC-BY-SA-4.0
 			<pos>0.76 0.76</pos>
 			<size>0.25 0.08</size>
 			<forceUppercase>false</forceUppercase>
-			<lineSpacing>1.15</lineSpacing>
+			<lineSpacing>1.05</lineSpacing>
 			<color>FFFFFF</color>
     <textStrokeColor>000000</textStrokeColor>
     <textStrokeSize>1.5</textStrokeSize>
 			<alignment>left</alignment>
-			<fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
 			<fontSize>0.022</fontSize>
 			<zIndex>160</zIndex>
-			<text>♛ ${system.mostPlayedName}
-▶ ${system.mostPlayedCount}    ★ ${system.favoriteCount}    🎮 ${system.gameCount}</text>
+			<text>
+ ${system.mostPlayedFull} plays
+ ${system.favoriteCount} Fav ✯
+
+		</text>
+		
 		</text>
 
 		<image name="background4" extra="true">
@@ -255,9 +272,16 @@ license:		Creative Commons NC-BY-SA-4.0
 			<pos>0.210 0.294</pos>   
 			
 			<maxSize>0.05 0.05</maxSize>
-
 			<path>./_inc/caratulas/logos/${system.theme}.png</path>
-
+			<zIndex>91</zIndex>
+		</image>
+		
+		<image name="last" extra="true">
+			<origin>0 0</origin>
+   			<pos>0.72 0.76</pos>
+			
+			<maxSize>0.05 0.05</maxSize>
+			<path>./_inc/caratulas/logos/icon-playcount.png</path>
 			<zIndex>91</zIndex>
 		</image>
 
@@ -470,14 +494,17 @@ license:		Creative Commons NC-BY-SA-4.0
     <carouselImageType>thumbnail</carouselImageType>
     <carouselFallbackImage>./_inc/caratulas/logos/joystick.png</carouselFallbackImage>
     <carouselImageFit>contain</carouselImageFit>
-    <carouselImagePadding>0.004 0.006</carouselImagePadding>
-    <carouselImageLockSize>true</carouselImageLockSize>
-    <carouselShowText>false</carouselShowText>
+<carouselImageCornerRadius>0.010</carouselImageCornerRadius>
+<carouselImageBoxSize>0.100 0.710</carouselImageBoxSize>
+<carouselImageLockSize>true</carouselImageLockSize>
+<carouselImageZIndex>20</carouselImageZIndex>
+
 
     <carouselImageBorder>./_inc/images/card_border.png</carouselImageBorder>
     <carouselImageBorderSelected>./_inc/images/card_border.png</carouselImageBorderSelected>
-    <carouselImageBorderScale>1.18</carouselImageBorderScale>
+    <carouselImageBorderScale>1.16</carouselImageBorderScale>
     <carouselImageBorderColor>FFFFFFFF</carouselImageBorderColor>
+        <carouselImageBorderZIndex>10</carouselImageBorderZIndex>
 
     <logoScale>1.40</logoScale>
     <logoSize>0.067 0.521</logoSize>
