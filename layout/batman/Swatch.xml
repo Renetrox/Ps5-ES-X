@@ -11,7 +11,7 @@ license:		Creative Commons NC-BY-SA-4.0
 
   <!-- Metadata global por sistema (fallback + sistema actual) -->
   <include>./_inc/metadata-global/_default.xml</include>
-  <include>./_inc/metadata-global/${system.theme}.xml</include>
+  <include optional="true">./_inc/metadata-global/${system.theme}.xml</include>
 
 	
 	<!-- Background Image -->
@@ -106,7 +106,7 @@ license:		Creative Commons NC-BY-SA-4.0
     <origin>0 0</origin>
     <pos>0.102 0.727</pos> <!-- offset pequeño -->
     <size>0.683 0.035</size>
-    <text>${systemHardwareType} • ${systemReleaseYear} • ${systemManufacturer}</text>
+    <text>${systemMetaLine}</text>
     <fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
     <fontSize>0.022</fontSize>
     <color>00000099</color> <!-- sombra -->
@@ -119,7 +119,7 @@ license:		Creative Commons NC-BY-SA-4.0
     <origin>0 0</origin>
     <pos>0.100 0.725</pos>
     <size>0.683 0.035</size>
-    <text>${systemHardwareType} • ${systemReleaseYear} • ${systemManufacturer}</text>
+    <text>${systemMetaLine}</text>
     <fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
     <fontSize>0.022</fontSize>
     <color>FFFFFFFF</color>
