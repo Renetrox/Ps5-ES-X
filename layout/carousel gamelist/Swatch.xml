@@ -11,7 +11,7 @@ license:		Creative Commons NC-BY-SA-4.0
 
   <!-- Metadata global por sistema (fallback + sistema actual) -->
   <include>./_inc/metadata-global/_default.xml</include>
-  <include>./_inc/metadata-global/${system.theme}.xml</include>
+  <include optional="true">./_inc/metadata-global/${system.theme}.xml</include>
 
 	
 	 <!-- Background Image -->
@@ -89,7 +89,7 @@ license:		Creative Commons NC-BY-SA-4.0
     <origin>0 0</origin>
     <pos>0.102 0.727</pos> <!-- offset pequeño -->
     <size>0.683 0.035</size>
-    <text>${systemHardwareType} • ${systemReleaseYear} • ${systemManufacturer}</text>
+    <text>${systemMetaLine}</text>
     <fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
     <fontSize>0.022</fontSize>
     <color>00000099</color> <!-- sombra -->
@@ -102,7 +102,7 @@ license:		Creative Commons NC-BY-SA-4.0
     <origin>0 0</origin>
     <pos>0.100 0.725</pos>
     <size>0.683 0.035</size>
-    <text>${systemHardwareType} • ${systemReleaseYear} • ${systemManufacturer}</text>
+    <text>${systemMetaLine}</text>
     <fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
     <fontSize>0.022</fontSize>
     <color>FFFFFFFF</color>
@@ -147,7 +147,14 @@ license:		Creative Commons NC-BY-SA-4.0
 	
 <feature supported="carousel">
 	<view name="system">
-		<carousel name="systemcarousel">
+		<text name="logoText">
+            <pos>0.5 0.5</pos><size>0.94 0.28</size>
+            <fontPath>./_inc/fonts/SSTLight.TTF</fontPath><fontSize>0.020</fontSize>
+            <color>FFFFFFFF</color><alignment>center</alignment>
+            <textStrokeColor>000000CC</textStrokeColor><textStrokeSize>1</textStrokeSize>
+        </text>
+        <carousel name="systemcarousel">
+            <showFallbackName>true</showFallbackName>
 			<zIndex>70</zIndex>  
 			<type>horizontal</type>
 			<origin>0.592 0.00999</origin>
@@ -418,9 +425,9 @@ license:		Creative Commons NC-BY-SA-4.0
 	<!-- LISTA IZQUIERDA -->
 		<textlist name="gamelist">
     <selectorColor>FFFFFF00</selectorColor>
-    <selectedColor>FFFFFF00</selectedColor>
-    <primaryColor>FFFFFF00</primaryColor>
-    <secondaryColor>FFFFFF00</secondaryColor>
+    <selectedColor>FFFFFFFF</selectedColor>
+    <primaryColor>FFFFFFFF</primaryColor>
+    <secondaryColor>FFFFFFFF</secondaryColor>
 
     <fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
     <lineSpacing>1.00</lineSpacing>
@@ -432,6 +439,11 @@ license:		Creative Commons NC-BY-SA-4.0
 
     <orientation>horizontal</orientation>
     <carouselMode>true</carouselMode>
+    <carouselShowText>false</carouselShowText>
+    <carouselShowFallbackName>true</carouselShowFallbackName>
+    <fontSize>0.022</fontSize>
+    <carouselTextMaxLines>2</carouselTextMaxLines>
+    <textStrokeColor>000000CC</textStrokeColor><textStrokeSize>1</textStrokeSize>
     <carouselLoop>true</carouselLoop>
 
     <carouselItemColor>00000000</carouselItemColor>
@@ -442,7 +454,7 @@ license:		Creative Commons NC-BY-SA-4.0
     <carouselImageFit>contain</carouselImageFit>
     <carouselImagePadding>0.004 0.006</carouselImagePadding>
     <carouselImageLockSize>true</carouselImageLockSize>
-    <carouselShowText>false</carouselShowText>
+
 
     <carouselImageBorder>./_inc/images/card_border.png</carouselImageBorder>
     <carouselImageBorderSelected>./_inc/images/card_border.png</carouselImageBorderSelected>
@@ -595,9 +607,9 @@ license:		Creative Commons NC-BY-SA-4.0
 	<!-- LISTA IZQUIERDA -->
 		<textlist name="gamelist">
     <selectorColor>FFFFFF00</selectorColor>
-    <selectedColor>FFFFFF00</selectedColor>
-    <primaryColor>FFFFFF00</primaryColor>
-    <secondaryColor>FFFFFF00</secondaryColor>
+    <selectedColor>FFFFFFFF</selectedColor>
+    <primaryColor>FFFFFFFF</primaryColor>
+    <secondaryColor>FFFFFFFF</secondaryColor>
 
     <fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
     <lineSpacing>1.00</lineSpacing>
@@ -609,6 +621,11 @@ license:		Creative Commons NC-BY-SA-4.0
 
     <orientation>horizontal</orientation>
     <carouselMode>true</carouselMode>
+    <carouselShowText>false</carouselShowText>
+    <carouselShowFallbackName>true</carouselShowFallbackName>
+    <fontSize>0.022</fontSize>
+    <carouselTextMaxLines>2</carouselTextMaxLines>
+    <textStrokeColor>000000CC</textStrokeColor><textStrokeSize>1</textStrokeSize>
     <carouselLoop>true</carouselLoop>
 
     <carouselItemColor>00000000</carouselItemColor>
@@ -619,7 +636,7 @@ license:		Creative Commons NC-BY-SA-4.0
     <carouselImageFit>contain</carouselImageFit>
     <carouselImagePadding>0.004 0.006</carouselImagePadding>
     <carouselImageLockSize>true</carouselImageLockSize>
-    <carouselShowText>false</carouselShowText>
+
 
     <carouselImageBorder>./_inc/images/card_border.png</carouselImageBorder>
     <carouselImageBorderSelected>./_inc/images/card_border.png</carouselImageBorderSelected>

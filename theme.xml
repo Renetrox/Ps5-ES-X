@@ -5,6 +5,7 @@
     <view name="system, basic, detailed, video">
         <image name="logo">
             <path>./_inc/caratulas/${system.theme}.png</path>
+            <default>./_inc/caratulas/_default_sys.png</default>
         </image>
         <image name="background_system_image" extra="true">
             <path>./_inc/images/background.png</path>
