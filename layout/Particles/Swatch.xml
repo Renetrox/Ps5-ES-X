@@ -169,14 +169,7 @@ license:		Creative Commons NC-BY-SA-4.0
 	
 <feature supported="carousel">
 	<view name="system">
-		<text name="logoText">
-            <pos>0.5 0.5</pos><size>0.94 0.28</size>
-            <fontPath>./_inc/fonts/SSTLight.TTF</fontPath><fontSize>0.020</fontSize>
-            <color>FFFFFFFF</color><alignment>center</alignment>
-            <textStrokeColor>000000CC</textStrokeColor><textStrokeSize>1</textStrokeSize>
-        </text>
-        <carousel name="systemcarousel">
-            <showFallbackName>true</showFallbackName>
+		<carousel name="systemcarousel">
 			<zIndex>70</zIndex>  
 			<type>horizontal</type>
 			<origin>0.592 0.00999</origin>
@@ -484,9 +477,9 @@ license:		Creative Commons NC-BY-SA-4.0
 	<!-- LISTA IZQUIERDA -->
 		<textlist name="gamelist">
     <selectorColor>FFFFFF00</selectorColor>
-    <selectedColor>FFFFFFFF</selectedColor>
-    <primaryColor>FFFFFFFF</primaryColor>
-    <secondaryColor>FFFFFFFF</secondaryColor>
+    <selectedColor>FFFFFF00</selectedColor>
+    <primaryColor>FFFFFF00</primaryColor>
+    <secondaryColor>FFFFFF00</secondaryColor>
 
     <fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
     <lineSpacing>1.00</lineSpacing>
@@ -498,11 +491,6 @@ license:		Creative Commons NC-BY-SA-4.0
 
     <orientation>horizontal</orientation>
     <carouselMode>true</carouselMode>
-    <carouselShowText>false</carouselShowText>
-    <carouselShowFallbackName>true</carouselShowFallbackName>
-    <fontSize>0.022</fontSize>
-    <carouselTextMaxLines>2</carouselTextMaxLines>
-    <textStrokeColor>000000CC</textStrokeColor><textStrokeSize>1</textStrokeSize>
     <carouselLoop>true</carouselLoop>
 
     <carouselItemColor>00000000</carouselItemColor>
